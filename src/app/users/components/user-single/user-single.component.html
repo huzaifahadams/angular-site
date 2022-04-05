@@ -1,0 +1,14 @@
+<div class="section">
+  <div class="container">
+    <div class="card" *ngIf="user">
+      <h1 class="has-text-centered">showing a single user from the api</h1>
+      <img [src]="user.avatar_url" alt="avater">
+
+      <h2>{{user.login}}</h2>
+      <!-- <p>{{user.followers_url}}</p> -->
+
+
+    </div>
+
+  </div>
+</div>

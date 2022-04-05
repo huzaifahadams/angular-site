@@ -1,0 +1,21 @@
+
+<!-- header -->
+<div class="navbar is-dark">
+  <!-- logo -->
+  <div class='navbar-brand'>
+  <a class= 'nav-item'>
+  <img src="../../../assets/images/logo.png" [routerLink]="['/']" >
+  </a>
+  </div>
+
+
+  <!--menu-->
+  <div class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item" [routerLink]="['/']" routerLinkActive="router-link-active">Home</a>
+      <a class="navbar-item" [routerLink]="['/users']" routerLinkActive="router-link-active">User</a>
+      <a class="navbar-item" [routerLink]="['/contact']" routerLinkActive="router-link-active">Contact</a>
+      <a class="navbar-item" [routerLink]="['/about']" routerLinkActive="router-link-active">About</a>
+    </div>
+  </div>
+</div>
